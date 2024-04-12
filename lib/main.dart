@@ -15,10 +15,23 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: const Color.fromARGB(255, 202, 36, 24),
             title: const Text(
-              'Luchito, ive made it! 😎',
-              selectionColor: Color.fromARGB(202, 255, 255, 255)
+              // TEXT
+              appTittle,
+
+              // TEXT COLOR
+              selectionColor: Color.fromARGB(202, 255, 255, 255),
+
+              // CHANGE TEXT STYLE
+              style: TextStyle( 
+                fontStyle: FontStyle.italic, 
+
+                // SIZE IN px (PIXELS)
+                fontSize: 25,
+                fontWeight: FontWeight.bold,
+
+
               ),
-            // titleTextStyle: ,
+            ),
         ),
       ),
     );
